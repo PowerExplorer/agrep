@@ -29,8 +29,9 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import net.gnu.agrep.R;
+import net.gnu.explorer.StorageCheckActivity;
 
-public class Settings extends Activity {
+public class Settings extends StorageCheckActivity {
 
     private static final String KEY_IGNORE_CASE = "IgnoreCase";
     private static final String KEY_REGULAR_EXPRESSION = "RegularExpression";
